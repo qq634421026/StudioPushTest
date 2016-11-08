@@ -7,13 +7,4 @@
     android:layout_height="match_parent"
     tools:context="aroen.com.studiopushtest.MainActivity">
 
-    <android.support.design.widget.BottomNavigationView
-        android:id="@+id/bye_burger"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom"
-        android:background="@color/colorPrimary"
-        app:itemIconTint="#fff"
-        app:itemTextColor="#fff"
-        app:layout_behavior="@string/bye_burger_bottom_behavior" />
 </android.support.design.widget.CoordinatorLayout>
