@@ -99,7 +99,10 @@ public class MainActivity extends AppCompatActivity {
                             }
                         });
                         ObjectAnimator.ofFloat(search, "scaleY", 1, 1.5f).setDuration(300).start();
-
+//                        ObjectAnimator.ofInt(search, "backgroundColor", drawable.getb,drawable2).setDuration(300).start();
+                        search.setBackgroundResource(R.drawable.ed_bg_write);
+                        search.setTextColor(Color.parseColor("#000000"));
+                        search.setHintTextColor(Color.parseColor("#000000"));
                         anim.start();
                         isfirst = true;
                         if (anim.isRunning()) {
@@ -121,6 +124,9 @@ public class MainActivity extends AppCompatActivity {
                             }
                         });
                         ObjectAnimator.ofFloat(search, "scaleY", 1.5f, 1).setDuration(300).start();
+                        search.setBackgroundResource(R.drawable.ed_bg);
+                        search.setTextColor(Color.parseColor("#ffffff"));
+                        search.setHintTextColor(Color.parseColor("#ffffff"));
                         anim.start();
                         isfirst = false;
                         anim.addListener(new Animator.AnimatorListener() {
