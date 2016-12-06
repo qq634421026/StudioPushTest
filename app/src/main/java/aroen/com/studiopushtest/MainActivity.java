@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
     private float end, end2;
     private float start;
     private boolean isfirst;
-
+//hahah
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
